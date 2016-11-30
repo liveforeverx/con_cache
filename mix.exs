@@ -38,7 +38,7 @@ defmodule ConCache.Mixfile do
 
   defp deps do
     [
-      {:exactor, "~> 2.2.0"},
+      {:exactor, github: "sasa1977/exactor", branch: "master"},
       {:ex_doc, "~> 0.10.0", only: :docs},
       {:earmark, "~> 0.1", only: :docs}
     ]
